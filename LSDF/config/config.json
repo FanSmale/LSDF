@@ -1,0 +1,138 @@
+{
+  "lsdf": {
+    "common": {
+      "batch_size": 1024,
+      "checkpoint_path": "./config/checkpoints",
+      "lr": 1e-3,
+      "weight_decay": 1e-4
+    },
+    "Birds": {
+      "is_text_data": false,
+      "dropout_rate": 0.1,
+      "filename": "Birds",
+      "latent_dim": [64, 128],
+	  "max_epoch": 100,
+      "shape": [2, 128]
+    },
+    "Business": {
+      "is_text_data": true,
+      "dropout_rate": 0.2,
+      "filename": "Business",
+      "latent_dim": [256, 256],
+	  "max_epoch": 60,
+      "shape": [2, 128]
+    },
+    "Cal500": {
+      "is_text_data": false,
+      "dropout_rate": 0.4,
+      "filename": "Cal500",
+      "latent_dim": [128, 128],
+	  "max_epoch": 200,
+      "shape": [4, 64]
+    },
+    "CHD49":{
+      "is_text_data": false,
+      "dropout_rate": 0.1,
+      "filename": "CHD49",
+      "latent_dim": [16, 256],
+	  "max_epoch": 200,
+      "shape": [256, 1]
+    },
+    "Computer":{
+      "is_text_data": true,
+      "dropout_rate": 0.3,
+      "filename": "Computer",
+      "latent_dim": [256, 256],
+	  "max_epoch": 60,
+      "shape": [4, 64]
+    },
+    "Emotion":{
+      "is_text_data": false,
+      "dropout_rate": 0.1,
+      "filename": "Emotion",
+      "latent_dim": [128, 256],
+	  "max_epoch": 100,
+      "shape": [256, 1]
+    },
+    "Enron":{
+      "is_text_data": true,
+      "dropout_rate": 0.2,
+      "filename": "Enron",
+      "latent_dim": [256, 128],
+	  "max_epoch": 100,
+      "shape": [2, 128]
+    },
+    "Entertainment":{
+      "is_text_data": true,
+      "dropout_rate": 0.2,
+      "filename": "Entertainment",
+      "latent_dim": [256, 128],
+	  "max_epoch": 60,
+      "shape": [2, 128]
+    },
+    "Flags": {
+      "is_text_data": false,
+      "dropout_rate": 0.1,
+      "filename": "Flags",
+      "latent_dim": [128, 16],
+	  "max_epoch": 100,
+      "shape": [128, 2]
+    },
+    "Foodtruck":{
+      "is_text_data": false,
+      "dropout_rate": 0.1,
+      "filename": "Foodtruck",
+      "latent_dim": [64, 256],
+	  "max_epoch": 100,
+      "shape": [256, 1]
+    },
+    "Genbase":{
+      "is_text_data": false,
+      "dropout_rate": 0.2,
+      "filename": "Genbase",
+      "latent_dim": [32, 64],
+	  "max_epoch": 600,
+      "shape": [2, 128]
+    },
+    "Image":{
+      "is_text_data": false,
+      "dropout_rate": 0.3,
+      "filename": "Image",
+      "latent_dim": [64, 64],
+	  "max_epoch": 100,
+      "shape": [2, 128]
+    },
+    "Scene":{
+      "is_text_data": false,
+      "dropout_rate": 0.1,
+      "filename": "Scene",
+      "latent_dim": [128, 128],
+	  "max_epoch": 100,
+      "shape": [2, 128]
+    },
+    "Society":{
+      "is_text_data": true,
+      "dropout_rate": 0.3,
+      "filename": "Society",
+      "latent_dim": [128, 32],
+	  "max_epoch": 100,
+      "shape": [2, 128]
+    },
+    "WaterQuality":{
+      "is_text_data": false,
+      "dropout_rate": 0.1,
+      "filename": "WaterQuality",
+      "latent_dim": [256, 32],
+	  "max_epoch": 100,
+      "shape": [2, 128]
+    },
+    "Yeast":{
+      "is_text_data": false,
+      "dropout_rate": 0.4,
+      "filename": "Yeast",
+      "latent_dim": [128, 16],
+	  "max_epoch": 100,
+      "shape": [2, 128]
+    }
+  }
+}
